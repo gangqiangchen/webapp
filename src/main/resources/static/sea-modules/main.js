@@ -5,6 +5,9 @@ define(function(require, exports, module) {
 
    require('jquery');
    require('bootstrap');
-
+   
+   exports.init = function(){
+	   alert("hello seajs");
+   };
    
 });
